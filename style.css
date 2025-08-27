@@ -1,0 +1,72 @@
+.nav-link:hover{
+    color: #1ea8df !important;
+}
+.font{
+    font-family: "Anton", sans-serif;
+    font-size: 68px;
+}
+.btn-primary{
+    background-color: #0dcaf0 !important;
+    border-color: #0dcaf0;
+}
+.circle{
+    position: relative;
+    top: 200px;
+    left: 1050px;
+    width: 110px;
+}
+.footer-lst{
+    list-style: none;
+}
+.navbar-toggler1{
+    display: block !important;
+}
+.button1{
+    font-size: 16px;
+}
+@media only screen and (max-width : 768px) {
+    .banner-img{
+        width: 300px !important;
+    }
+    .circle{
+        position: relative;
+        top: 670px !important;
+        left: 150px;
+        width: 100px !important;
+    }
+    .circle-text{
+        font-size: 13px !important;
+    }
+    .card{
+        width: 100% !important;
+    }
+    .main-section-text{
+        margin: 0px !important;
+        padding: 0px 0px 0px 30px!important;
+    }
+}
+@media only screen and (max-width : 992px) {
+    .banner-img{
+        width: 450px;
+    }
+    .circle{
+        position: relative;
+        top: 550px ;
+        left: 180px !important;
+        width: 100px;
+    }
+    .circle-text{
+        font-size: 13px !important;
+    }
+    .card{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width : 1024px){
+    .circle{
+        position: relative;
+        top: 180px;
+        left: 870px;
+        width: 110px;
+    }
+} 
