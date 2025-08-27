@@ -1,6 +1,10 @@
 .nav-link:hover{
     color: #1ea8df !important;
 }
+.navbar-2{
+    position: fixed;
+    top: 53px;
+}
 .font{
     font-family: "Anton", sans-serif;
     font-size: 68px;
@@ -8,6 +12,12 @@
 .btn-primary{
     background-color: #0dcaf0 !important;
     border-color: #0dcaf0;
+}
+.border-primary{
+    border-color: #0dcaf0 !important;
+}
+.padding-section{
+    padding-top: 150px;
 }
 .circle{
     position: relative;
